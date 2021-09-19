@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Image resizing</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+<style>
+
+</style>
+  <body>
+<table>
+  <a href="index.html">Back to Index</a>
+  <header> <h1>Header</h1></header>
+  <main>
+    <h2>Fruit</h2>
+<picture>
+  <source width="200" height="200" srcset="images/minecraftMelon.jpg" media="(min-width: 769px)" >
+  <source width="200" height="200" srcset="images/fruit2(apples).jpg" media="(min-width: 426px)">
+  <source width="200" height="200" srcset="images/fruit1(kiwi).jpg" media="(min-width: 321px)" >
+  <img src="images/fruit1(kiwi).jpg" alt="fruit" width="200" height="200">
+</picture>
+<hr>
+<h2> Birds </h2>
+<picture>
+  <source width="200" height="200" srcset="images/bird3.jpg" media="(min-width: 769px)" >
+  <source width="200" height="200" srcset="images/bird2.jpg" media="(min-width: 426px)">
+  <source width="200" height="200" srcset="images/bird1.jpg" media="(min-width: 321px)" >
+  <img src="images/bird1.jpg" alt="bird" width="200" height="200">
+</picture>
+<hr>
+<h2>Whales</h2>
+<picture>
+  <source width="200" height="200" srcset="images/whale3.jpg" media="(min-width: 769px)" >
+  <source width="200" height="200" srcset="images/whale2.jpg" media="(min-width: 426px)">
+  <source width="200" height="200" srcset="images/whale1.jpg" media="(min-width: 321px)" >
+  <img src="images/whale1.jpg" alt="bird" width="200" height="200">
+</picture>
+<hr>
+</main>
+<footer>
+  <p>© 2021 Will Thompson</p>
+</footer>
+    <script src="script.js"></script>
+  </body>
+</html>
