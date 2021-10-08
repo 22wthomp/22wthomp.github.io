@@ -1,0 +1,47 @@
+body{
+    background-color: #00FFBF
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+#wrapper
+{
+    width: 80%;
+    margin: auto;
+    background-color: #7851a9;
+    box-shadow: 5px 10px #FF10F0;
+}
+div{
+    margin: auto;
+    width: 90%;
+}
+.itembox{
+    border: 4px dotted blue;
+    border-radius: 25px;
+    box-shadow: 5px 10px #39FF14;
+    background-color: #7d7a00;
+    color: white;
+    padding: 3cm;
+}
+.favorite{
+    border: 10px double orange;
+    background-color: blue;
+    color: orange;
+}
+ol{
+    background-color:  #2796BD;
+    list-style-type: cjk-ideographic;
+}
+ul{
+    background-color:  #27BD4E;
+    list-style-type: katakana-iroha;
+}
+nav li {
+  display: inline;
+}
