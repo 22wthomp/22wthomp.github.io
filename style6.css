@@ -6,7 +6,7 @@
     color: white;
 }
 body {
-  background-image: url('ballon.jpg');
+  background-image: url('images/ballon.jpg');
   background-size: cover;
 }
 #wrapper{
