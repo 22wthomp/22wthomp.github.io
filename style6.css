@@ -18,5 +18,5 @@ body {
 .specialBorder{
     border: 10px solid transparent;
     padding: 10px;
-    border-image: url("imagesnewborder.jpg") 30 round;
+    border-image: url("images/newborder.jpg") 30 round;
 }
