@@ -1,0 +1,22 @@
+.ballonpic{
+    height: 300px;
+}
+#borderimg{
+    background-color: #6082B6;
+    color: white;
+}
+body {
+  background-image: url('ballon.jpg');
+  background-size: cover;
+}
+#wrapper{
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+    list-style-image: url('images/listimage.png');
+}
+.specialBorder{
+    border: 10px solid transparent;
+    padding: 10px;
+    border-image: url("imagesnewborder.jpg") 30 round;
+}
